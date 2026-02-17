@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-""" Module that contains the function element_length which takes a list of sequences and returns
-a list of tuples containing the elements of the input list and their lengths."""
+""" Module that contains the function element_length which takes a list of sequences"""
 
 
 from typing import Iterable, Sequence, List, Tuple
