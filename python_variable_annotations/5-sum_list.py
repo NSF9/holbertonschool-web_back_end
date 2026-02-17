@@ -2,7 +2,6 @@
 """5-sum_list.py: Annotate the sum_list function with the correct types."""
 
 
-
 from typing import List
 
 def sum_list(input_list: List[float]) -> float:
