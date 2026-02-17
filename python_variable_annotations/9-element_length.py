@@ -2,7 +2,9 @@
 """ Module that contains the function element_length which takes a list of sequences and returns
 a list of tuples containing the elements of the input list and their lengths."""
 
+
 from typing import Iterable, Sequence, List, Tuple
+
 
 def element_length(lst: Iterable[Sequence]) -> List[Tuple[Sequence, int]]:
     """Returns a list of tuples containing the elements of the input list and their lengths."""
