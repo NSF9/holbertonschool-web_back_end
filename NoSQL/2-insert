@@ -1,3 +1,2 @@
 // insertion syntax
-// my comment
-db.users.insert({ name: "Holberton school" });
+db.school.insert({ name: "Holberton school" });
