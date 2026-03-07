@@ -1,2 +1,2 @@
 //this is a script to find a mtching name
-db.shcool.find({name: "Holberton school"})
+db.school.find({name: "Holberton school"})
