@@ -1,2 +1,2 @@
 //get all
-db.users.find()
+db.shcool.find()
