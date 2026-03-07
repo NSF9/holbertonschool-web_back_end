@@ -3,7 +3,9 @@
 
 
 def index_range(page: int, page_size: int) -> tuple:
+
     """on every next page the index will incrament to the size"""
+
     start_index: int
     end_index: int
     if page == 1:
