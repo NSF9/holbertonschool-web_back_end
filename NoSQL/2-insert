@@ -1,0 +1,6 @@
+use my_db
+db.users.insertOne({
+  name: "Nawaf",
+  age: 26,
+  skills: ["C#", "SQL"]
+})
