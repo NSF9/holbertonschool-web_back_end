@@ -1,0 +1,3 @@
+// create db throw insertion
+use my_db
+db.users.insertOne({name: "Nawaf"})
