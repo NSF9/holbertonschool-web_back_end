@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""
-Main file
-"""
+"""this is a helper function for page indexing"""
 
-index_range = __import__('0-simple_helper_function').index_range
 
-res = index_range(1, 7)
-print(type(res))
-print(res)
-
-res = index_range(page=3, page_size=15)
-print(type(res))
-print(res)
+def index_range(page: int, page_size: int) -> tuple:
+    """on every next page the index will incrament to the size"""
+    start_index: int
+    end_index: int
+    if page == 1:
+        start_index = 0
+    else:
+        start_index = (page_size * page) - page_size
+    end_index = page_size * page
+    return (start_index, end_index)
