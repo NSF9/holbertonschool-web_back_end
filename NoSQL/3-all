@@ -1,2 +1,2 @@
-use my_db
+//get all
 db.users.find()

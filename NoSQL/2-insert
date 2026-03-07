@@ -1,6 +1,3 @@
-use my_db
+// insertion syntax
 db.users.insertOne({
-  name: "Nawaf",
-  age: 26,
-  skills: ["C#", "SQL"]
-})
+  name: "Holberton school"});
